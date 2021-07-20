@@ -57,6 +57,14 @@ body
     transition: 195ms ease-in-out;
 }
 
+.link-dark
+{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(9, 9, 15);
+    transition: 195ms ease-in-out;
+}
+
 .link:hover
 {
     font-weight: bold; 
@@ -171,6 +179,7 @@ body
 .clm-30-70
 {
     width: 30%;
+    float: left;
     padding: 9px;
     height: 20vh;
     text-align: center;
@@ -180,6 +189,7 @@ body
 .clm-70-30
 {
     width: 70%;
+    float: right;
     padding: 9px;
     height: 20vh;
     text-align: left;
@@ -260,4 +270,15 @@ body
 .symbol:hover
 {
     font-size: 21px;
+}
+
+
+.ftr
+{
+    background: rgb(235, 220, 201);
+    color: rgb(14, 12, 11);
+    border: 1px solid rgb(14, 12, 11);
+    border-radius: 4px;
+    padding: 18px;
+    transition: 275ms ease-in-out;
 }

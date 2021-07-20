@@ -66,3 +66,7 @@
 
 ## Symbols
 .symbol
+
+
+## Footer
+.ftr
