@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*
+{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: antiquewhite;
+}
+
+/************** LOGOS *************/
+
+.comp-logo
+{
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+/************ MAIN CONTAINER *************/
+
+.main-container
+{
+    padding: 12px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/************** NAVIGATION *************/
+
+.main-nav
+{
+    width: 85%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background: linear-gradient(to left, rgb(9, 9, 15), rgb(23, 23, 36));
+}
+
+.navbar-menu-icon
+{
+    background: antiquewhite;
+    padding: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: antiquewhite;
+    transition: 235ms ease-in-out;
+}
+
+.navbar-menu-icon:hover
+{
+    box-shadow: inset 0px 5px 8px 0px rgba(0, 0, 0, .65);
+
+}
+
+/************* LIST-ITEMS ************/
+
+.list-container
+{
+    
+}
+
+.list-item
+{
+    display: inline-block;
+    padding: 12px;
+}
+
+/************* LINKS **************/
+
+.main-nav-links
+{
+    overflow: hidden;
+}
+
+.link
+{
+    padding: 3px;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 150ms ease-in-out;
+}
+
+.link-dark
+{
+    padding: 3px;
+    text-decoration: none;
+    color: rgb(9, 9, 15);
+    transition: 195ms ease-in-out;
+}
+
+.link:hover
+{
+    font-weight: 600;
+}
+
+.active-link
+{
+    text-decoration-line: overline;
+    font-weight: bold;
+    
+}
+
+/************* BUTTONS ************/
+
+.butn-cta
+{
+    border: 1px solid antiquewhite;
+    border-radius: 3px;
+    background: transparent;
+    color: antiquewhite;
+    padding: 12px;
+    width: 120px;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+
+.butn-cta:hover
+{
+    border: 1px solid rgb(9, 9, 15);
+    box-shadow: inset 0px 5px 8px 0px rgba(0, 0, 0, .65);
+    background: antiquewhite;
+    color: rgb(9, 9, 15);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .5);
+
+}
+
+
+/************** TEXT ***************/
+
+.strong
+{
+    font-weight: bold;
+}
+
+.stronger
+{
+    font-weight: bolder;
+}
+
+.txt-ctr
+{
+    text-align: center;
+}
+
+.spaced-out
+{
+    letter-spacing: 3px;
+}
+
+.title
+{
+    padding: 18px;
+}
+
+.txt-lrg
+{
+    font-size: large;
+}
+
+.txt-x-lrg
+{
+    font-size: x-large;
+}
+
+.txt-xx-lrg
+{
+    font-size: xx-large;
+}
+
+
+/***************** BANNERS **************/
+
+.main-banner
+{
+    padding: 90px;
+    background: rgb(240, 224, 204);
+    background-size: cover;
+    /* height: 10vh; */
+    letter-spacing: 3px;
+    font-size: x-large;
+}
+
+ /********** ROWS & COLUMNS ***********/
+
+.row
+{
+    display: flex;
+    padding: 21px;
+}
+
+.clm-50-50
+{
+    width: 50%;
+    padding: 9px;
+    height: 20vh;
+    text-align: left;
+
+}
+
+.clm-30-70
+{
+    width: 30%;
+    float: left;
+    padding: 9px;
+    height: 20vh;
+    text-align: center;
+
+}
+
+.clm-70-30
+{
+    width: 70%;
+    float: right;
+    padding: 9px;
+    height: 20vh;
+    text-align: left;
+
+}
+
+
+
+/************* IMAGES ************/
+
+.img
+{
+    width: 80%;
+    border-radius: 4px;
+}
+
+.img-container
+{
+    padding: 9px;
+}
+
+/*************** SHADOWS *************/
+
+.shadow-light
+{
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .65);
+
+}
+
+
+/**************** PADDING **************/
+
+.padded
+{
+    padding: 12px;
+}
+
+
+
+/************* BOXES *************/
+.box
+{
+    background: rgb(235, 220, 201);
+    color: rgb(14, 12, 11);
+    border: 1px solid rgb(14, 12, 11);
+    border-radius: 4px;
+    padding: 18px;
+    transition: 275ms ease-in-out;
+    /* height: 15vh; */
+
+}
+
+.box-alt
+{
+    background: linear-gradient(to left, rgb(9, 9, 15), rgb(23, 23, 36));
+    color: rgb(233, 213, 184);
+    border: 1px solid rgb(9, 9, 15);
+    border-radius: 4px;
+    padding: 18px;
+    /* height: 15vh; */
+
+}
+
+.box:hover
+{
+    border: 1px solid rgb(255, 225, 188);
+
+}
+
+
+/******************* SYMBOLS *****************/
+
+.symbol
+{
+    transition: 275ms ease-in-out;
+}
+
+.symbol:hover
+{
+    font-size: 21px;
+}
+
+/************** FOOTER **************/
+
+.ftr
+{
+    background: rgb(235, 220, 201);
+    color: rgb(14, 12, 11);
+    border: 1px solid rgb(14, 12, 11);
+    border-radius: 4px;
+    padding: 18px;
+    
+}
+
+.ftr-txt
+{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 600px)
+{
+    .main-nav-links
+    {
+        display: none;
+    }
+
+    .butn-cta
+    {
+        display: none;
+    }
+
+
+    .img
+    {
+        width: 100%;
+    }
+
+    .row
+    {
+        display: block;
+        
+    }
+
+    .clm-30-70
+    {
+        padding-bottom: 305px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .clm-70-30
+    {
+
+        width: 100%;
+    
+    }
+
+    .box
+    {
+        width: 93%;
+    }
+
+    .box-alt
+    {
+        width: 93%;
+    }
+
+    .ftr
+    {
+        width: 86%;
+    }
+
+}
+
+
+
+@media all and (min-width: 600px)
+{
+
+    .navbar-menu-icon
+    {
+        display: none;
+    }
+
+
+ 
+
+}
+
+
+
+
+/* @media (orientation: landscape) and (max-width: 500px)
+{
+    body
+    {
+        color: azure;
+    }
+} */
+
+/* @media (orientation: landscape), (max-width: 500px)
+{
+    body
+    {
+        color: azure;
+    }
+} */
+
+
+/* @media (orientation: landscape)
+{
+    body 
+    {
+        color: rgb(14, 12, 11);
+    }
+} */
