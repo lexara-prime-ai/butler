@@ -16,6 +16,8 @@
 
 .navbar-menu-icon
 .main-nav
+.side-nav
+.overlay
 
 
 ## Banner
@@ -60,6 +62,7 @@
 
 .butn-cta
 .butn
+.close-butn
 
 
 ## Rows
