@@ -281,11 +281,19 @@ body
     border: 1px solid rgb(9, 9, 15);
     border-radius: 4px;
     padding: 18px;
+    transition: 275ms ease-in-out;
+
     /* height: 15vh; */
 
 }
 
 .box:hover
+{
+    border: 1px solid rgb(255, 225, 188);
+
+}
+
+.box-alt:hover
 {
     border: 1px solid rgb(255, 225, 188);
 
