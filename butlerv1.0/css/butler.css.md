@@ -35,8 +35,8 @@
 .title
 .ftr-txt
 .txt-lrg
-.txt-x-large
-.txt-xx-large
+.txt-x-lrg
+.txt-xx-lrg
 
 
 ## Font weight
@@ -79,6 +79,8 @@
 ## Padding
 
 .padded
+.padded-x2
+.padded-0
 
 
 ## Boxes
@@ -86,6 +88,17 @@
 .box
 .box-alt
 
+## Cards
+
+.card-container
+.card
+
+
+## Forms
+
+.form-container
+.form
+.input
 
 ## Images
 .img
