@@ -1,19 +1,15 @@
 # BUTLER.CSS CLASSES
 
-## Main classes
-
-.main-container
-.main-nav
-.main-banner
-.main-nav-links
-
+*** def - default ***
 
 ## Containers
 .main-container
+.inner-container
 
 
 ## Navigation
 
+.main-nav-links
 .navbar-menu-icon
 .main-nav
 .side-nav
@@ -76,11 +72,26 @@
 .clm-70-30
 
 
+## Grids
+
+.grid .grid-60-40
+.grid .grid-60-40-def
+.grid .grid-40-60
+.grid .grid-60-40-def
+.grid .grid-70-30
+.grid .grid-30-70
+.grid .grid-80-20
+.grid .grid-20-80
+.grid .grid-50-50
+.grid .grid-4-even
+
+
 ## Padding
 
 .padded
 .padded-x2
 .padded-0
+.padded-lt
 
 
 ## Boxes
@@ -88,10 +99,16 @@
 .box
 .box-alt
 
+
 ## Cards
 
 .card-container
 .card
+
+
+## CardsAlternate Hover Effects)
+
+.card-flat
 
 
 ## Forms
@@ -113,6 +130,7 @@
 ## Images
 
 .img
+.img-def   ***Image without hover effects***
 .img-container
 
 

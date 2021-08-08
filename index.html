@@ -1,267 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- BUTLER -->
 
-    <link rel="stylesheet" href="butlerv1.0/css/butler.css" type="text/css">
+    <link rel="stylesheet" href="butlerv1.0/css/butler.css" type="text/css" />
 
     <!-- FONT AWESOME -->
 
-
     <title>GMediaSec | Butler.css | Home</title>
-</head>
+  </head>
 
-<body>
-    
-        <nav class="main-nav shadow-light">
+  <body>
+    <nav class="main-nav shadow-light">
+      <h2 class="comp-logo">Butler</h2>
 
-            <h2 class="comp-logo">Butler</h2>
+      <ul class="main-nav-links list-container">
+        <li class="list-item">
+          <a class="link active-link" href="index.html">Home</a>
+        </li>
 
-            <ul class="main-nav-links list-container">
+        <li class="list-item"><a class="link" href="index[0].html">Grid Layout</a></li>
 
-                <li class="list-item"><a class="link active-link" href="index.html">Home</a></li>
+        <li class="list-item"><a class="link" href="about.html">About</a></li>
 
-                <li class="list-item"><a class="link" href="#">About</a></li>
+        <li class="list-item"><a class="link" href="https://github.com/AIGrecords/butler/archive/refs/heads/main.zip">Download</a></li>
+      </ul>
 
-                <li class="list-item"><a class="link" href="#">Download</a></li>
+      <a href="https://github.com/AIGrecords/butler.git"
+        ><button class="butn-cta stronger" type="button">
+          Try Butler Now
+        </button></a
+      >
 
-            </ul>
+      <span
+        ><img class="navbar-menu-icon" src="icons/SVG/menu.svg" alt=""
+      /></span>
+    </nav>
 
-            <a href="https://github.com/AIGrecords/butler.git"><button class="butn-cta stronger" type="button">Try Butler Now</button></a>
+    <!-- SIDE NAVIGATION -->
 
-            <span><img class="navbar-menu-icon" src="icons/SVG/menu.svg" alt=""></span>
-
-        </nav>
-
-
-        <!-- SIDE NAVIGATION -->
-
-        <!-- <div class="side-nav">
+    <!-- <div class="side-nav">
             <a href="javascript:void(0)" class="close-butn">%times;</a>
             <a href="#">Contact</a>
             <a href="#">Recent</a>
             <a href="#">Usage</a>
         </div> -->
 
-        <div id="sideNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-              <a href="#">Recent</a>
-              <a href="#">Usage</a>
-              <a href="#">Contact</a>
-              
-              
-            </div>
-          </div>
+    <div id="sideNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <a href="https://github.com/AIGrecords/butler/releases">Recent Release</a>
+        <a href="#">Usage</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
 
-        <div class="main-container">
+    <div class="main-container">
+      <div class="main-banner">
+        <h2 class="txt-ctr">Even Developers need Butlers sometimes</h2>
 
-        
-        
-        <div class="main-banner">
+        <p class="txt-ctr">
+          Or at least <strong>once</strong> in their lifetime...
+        </p>
+      </div>
 
-            <h2 class="txt-ctr">Even Developers need Butlers sometimes</h2>
-
-            <p class="txt-ctr">Or at least <strong>once</strong> in their lifetime...</p>
-
-        </div>
-
-        <div class="inner-container">
-
+      <div class="inner-container">
         <h2 class="txt-ctr title spaced-out txt-xx-lrg">More Info</h2>
 
         <!-- ROW -->
 
         <div class="row">
+          <!-- COLUMN -->
 
-            <!-- COLUMN -->
+          <div class="clm-30-70">
+            <p>
+              Butler is an <strong>Open Source CSS Library</strong> that
+              allows Developers and Designers to quickly try out various styling
+              techniques on the fly.
+            </p>
 
-            <div class="clm-30-70">
-                <p>
-                    Butler is an <strong>Open Source CSS Framework</strong> that allows Developers and Designers to
-                    quickly try out various styling techniques on the fly.
-                </p>
-
-                <div class="img-container">
-                    <img class="img shadow-light" src="images/temp_bg.jpg" alt="">
-
-                </div>
-
-                <p class="padded">
-                    <strong>Butler</strong> is still in its initial phase but developers & designers can still give it a
-                    try in order to find out it can improve their work flow.
-                </p>
-
-                
-
-                <ul class="list-container bordered txt-ctr">
-
-                    <h2 class="title spaced-out txt-x-lrg padded-0">Class List</h2>
-
-                    <h3 class="title spaced-out padded-0">Containers</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.main-container</li>
-                        <li class="secondary-list-item strong padded-lt">.inner-container</li>
-
-                    <h3 class="title spaced-out padded-0">Navigation</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.main-nav</li>
-                        <li class="secondary-list-item strong padded-lt">.main-banner</li>
-                        <li class="secondary-list-item strong padded-lt">.main-nav-links</li>
-                        <li class="secondary-list-item strong padded-lt">.side-nav</li>
-                        <li class="secondary-list-item strong padded-lt">.overlay</li>
-
-                    <h3 class="title spaced-out padded-0">Banners</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.main-banner</li>
-
-                        <h3 class="title spaced-out padded-0">Logos</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.comp-logo</li>
-
-                    <h3 class="title spaced-out padded-0">Text</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.txt-ctr</li>
-                        <li class="secondary-list-item strong padded-lt">.spaced-out</li>
-                        <li class="secondary-list-item strong padded-lt">.title</li>
-                        <li class="secondary-list-item strong padded-lt">.ftr-txt</li>
-                        <li class="secondary-list-item strong padded-lt">.txt-lrg</li>
-                        <li class="secondary-list-item strong padded-lt">.txt-x-lrg</li>
-                        <li class="secondary-list-item strong padded-lt">.strong</li>
-                        <li class="secondary-list-item strong padded-lt">.stronger</li>
-
-                    
-                    <h3 class="title spaced-out padded-0">Lists & Links</h3>
-
-                        <li class="secondary-list-item strong padded-lt">.list-container</li>
-
-                        <li class="secondary-list-item strong padded-lt">.list-tem</li>
-
-                        <li class="secondary-list-item strong padded-lt">.secondary-list-item</li>
-
-                  
-                </ul>
-
-              
-
-                <!-- FOOTER -->
-
-                <footer class="ftr padded">
-
-                    <h3 class="ftr-txt txt-ctr strong">GMediaSec2021&#169;</h3>
-                    <p class="txt-ctr"><a class="link-dark" href="#">Learn More...</a></p>
-
-                </footer>
-
+            <div class="img-container">
+              <img class="img" src="images/SM-placeholder.png" alt="" />
             </div>
 
-            <div class="clm-70-30">
+            <p class="padded">
+              <strong>Butler</strong> is still in its initial phase but
+              developers & designers can still give it a try in order to find
+              out it can improve their work flow.
+            </p>
 
-                <div class="padded">
+            <ul class="list-container bordered txt-ctr">
+              <h2 class="title spaced-out txt-x-lrg padded">Class List</h2>
 
-                    <h2 class="spaced-out txt-ctr">Classes <symbol class="symbol">(.)</symbol>
-                    </h2>
+              <h3 class="title spaced-out padded-0">Containers</h3>
 
-                </div>
+              <li class="secondary-list-item strong padded-lt">
+                .main-container
+              </li>
+              <li class="secondary-list-item strong padded-lt">
+                .inner-container
+              </li>
 
-                <div class="box padded txt-ctr strong">
+              <h3 class="title spaced-out padded-0">Navigation</h3>
 
-                    <h3 class="title txt-ctr spaced-out">box, strong, spaced-out, txt-ctr</h3>
+              <li class="secondary-list-item strong padded-lt">.main-nav</li>
+              <li class="secondary-list-item strong padded-lt">.main-banner</li>
+              <li class="secondary-list-item strong padded-lt">
+                .main-nav-links
+              </li>
+              <li class="secondary-list-item strong padded-lt">.side-nav</li>
+              <li class="secondary-list-item strong padded-lt">.overlay</li>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam aliquam corrupti cum
-                        quasi! Atque illo odio, asperiores similique dignissimos culpa, impedit earum nobis magni,
-                        nostrum pariatur natus? Et, exercitationem.
-                    </p>
-                </div>
+              <h3 class="title spaced-out padded-0">Banners</h3>
 
-                <div class="box-alt padded txt-ctr strong">
+              <li class="secondary-list-item strong padded-lt">.main-banner</li>
 
-                    <h3 class="spaced-out title">box-alt, strong, spaced-out, txt-ctr</h3>
+              <h3 class="title spaced-out padded-0">Logos</h3>
 
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id repellendus voluptate tenetur
-                        quae ipsam illo facere. Aliquam dignissimos itaque, cupiditate animi, necessitatibus, fuga quis
-                        at adipisci eaque nam omnis.
-                    </p>
-                </div>
+              <li class="secondary-list-item strong padded-lt">.comp-logo</li>
 
-                <div class="box padded txt-ctr">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam aliquam corrupti cum
-                        quasi! Atque illo odio, asperiores similique dignissimos culpa, impedit earum nobis magni,
-                        nostrum pariatur natus? Et, exercitationem.
-                    </p>
-                </div>
+              <h3 class="title spaced-out padded-0">Text</h3>
 
-              
+              <li class="secondary-list-item strong padded-lt">.txt-ctr</li>
+              <li class="secondary-list-item strong padded-lt">.spaced-out</li>
+              <li class="secondary-list-item strong padded-lt">.title</li>
+              <li class="secondary-list-item strong padded-lt">.ftr-txt</li>
+              <li class="secondary-list-item strong padded-lt">.txt-lrg</li>
+              <li class="secondary-list-item strong padded-lt">.txt-x-lrg</li>
+              <li class="secondary-list-item strong padded-lt">.strong</li>
+              <li class="secondary-list-item strong padded-lt">.stronger</li>
 
-                <!-- CARDS -->
+              <h3 class="title spaced-out padded-0">Lists & Links</h3>
 
-                <div class="card-container">
-                    <div class="card card_1">
-                        <h2 class="card-title">Box 1</h2>
-                        <p class="card-text" id="box_1">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A doloremque impedit porro magni? Quos quasi iure sed corporis, voluptatem dicta tenetur quam itaque perspiciatis. Quis culpa assumenda alias quisquam vitae.
-                        </p>
-                    </div>
-            
-                    <div class="card">
-                        <h2 class="card-title">Box 2</h2>
-                        <p class="card-text" id="box_2">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates perferendis ea sapiente voluptate deleniti laudantium magnam ut odit, recusandae aliquam fugiat 
-                        </p>
-                    </div>
-                </div>
-        
-                <div class="card-container">
-                    <div class="card padded-x2">
-                        <h2 class="card-title">Box 3</h2>
-                        <p class="card-text" id="box_3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo earum eaque deleniti nisi cum, exercitationem hic est quia. Nobis placeat magni, illum non accusantium exercitationem similique voluptatum vero officia delectus?
-                        </p>
-                    </div>
-            
-                    <div title="card" class="card">
-                        <h2 class="card-title">Box 4</h2>
-                        <img class="img-responsive img" src="images/temp_bg.jpg" alt="temp_bg">
-                        <p class="card-text" id="box_4">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quaerat dolor esse soluta possimus beatae libero rerum eius placeat odio! 
-                        </p>
-                    </div>
-                </div>
+              <li class="secondary-list-item strong padded-lt">
+                .list-container
+              </li>
 
-                <section class="form-container">
-                    <form action="#" class="form">
-                        <h2 class="form-title">Contact Us</h2>
-                        <input class="input" type="text" placeholder="Username">
+              <li class="secondary-list-item strong padded-lt">.list-tem</li>
 
-                        <input type="password" placeholder="Password">
+              <li class="secondary-list-item strong padded-lt">
+                .secondary-list-item
+              </li>
+            </ul>
 
-                        <input type="email" placeholder="Email">
+            <!-- FOOTER -->
 
-                        <button type="button" class="submit-butn">Send Message...</button>
-                    </form>
-                </section>
+            <footer class="ftr padded">
+              <h3 class="ftr-txt txt-ctr strong">GMediaSec2021&#169;</h3>
+              <p class="txt-ctr">
+                <a class="link-dark" href="#">Learn More...</a>
+              </p>
+            </footer>
+          </div>
 
-                <br>
-        
-
+          <div class="clm-70-30">
+            <div class="padded">
+              <h2 class="spaced-out txt-ctr">
+                Classes <symbol class="symbol">(.)</symbol>
+              </h2>
             </div>
+
+            <div class="box padded txt-ctr strong">
+              <h3 class="title txt-ctr spaced-out">
+                box, strong, spaced-out, txt-ctr
+              </h3>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt nam aliquam corrupti cum quasi! Atque illo odio,
+                asperiores similique dignissimos culpa, impedit earum nobis
+                magni, nostrum pariatur natus? Et, exercitationem.
+              </p>
+            </div>
+
+            <div class="box-alt padded txt-ctr strong">
+              <h3 class="spaced-out title">
+                box-alt, strong, spaced-out, txt-ctr
+              </h3>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi id
+                repellendus voluptate tenetur quae ipsam illo facere. Aliquam
+                dignissimos itaque, cupiditate animi, necessitatibus, fuga quis
+                at adipisci eaque nam omnis.
+              </p>
+            </div>
+
+            <div class="box padded txt-ctr">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Incidunt nam aliquam corrupti cum quasi! Atque illo odio,
+                asperiores similique dignissimos culpa, impedit earum nobis
+                magni, nostrum pariatur natus? Et, exercitationem.
+              </p>
+            </div>
+
+            <!-- CARDS -->
+
+            <div class="card-container">
+              <div class="card-flat card_1">
+                <h2 class="card-title">Box 1</h2>
+                <p class="card-text" id="box_1">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  doloremque impedit porro magni? Quos quasi iure sed corporis,
+                  voluptatem dicta tenetur quam itaque perspiciatis. Quis culpa
+                  assumenda alias quisquam vitae.
+                </p>
+              </div>
+
+              <div class="card-flat">
+                <h2 class="card-title">Box 2</h2>
+                <p class="card-text" id="box_2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Voluptates perferendis ea sapiente voluptate deleniti
+                  laudantium magnam ut odit, recusandae aliquam fugiat
+                </p>
+              </div>
+            </div>
+
+            <div class="card-container">
+              <div class="card-flat padded-x2">
+                <h2 class="card-title">Box 3</h2>
+                <p class="card-text" id="box_3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  earum eaque deleniti nisi cum, exercitationem hic est quia.
+                  Nobis placeat magni, illum non accusantium exercitationem
+                  similique voluptatum vero officia delectus?
+                </p>
+              </div>
+
+              <div title="card" class="card-flat">
+                <h2 class="card-title">Box 4</h2>
+                <img
+                  class="img-def"
+                  src="images/SM-placeholder.png"
+                  alt="temp_bg"
+                />
+                <p class="card-text" id="box_4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Commodi quaerat dolor esse soluta possimus beatae libero rerum
+                  eius placeat odio!
+                </p>
+              </div>
+            </div>
+
+            <section class="form-container">
+              <form action="#" class="form">
+                <h2 class="form-title">Contact Us</h2>
+                <input class="input" type="text" placeholder="Username" />
+
+                <input type="password" placeholder="Password" />
+
+                <input type="email" placeholder="Email" />
+
+                <button type="button" class="submit-butn">
+                  Send Message...
+                </button>
+              </form>
+            </section>
+
+            <br />
+          </div>
         </div>
-    </div>
-
-
-
+      </div>
 
     </div>
 
     <script src="butlerv1.0/js/butler.js" type="text/javascript"></script>
-</body>
-
+  </body>
 </html>
